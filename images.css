@@ -1,0 +1,114 @@
+h2{
+    margin-top: 10%;
+    margin-left: 2%;
+}
+.sec5,.sec6{
+ display: flex;
+ flex-direction: row;
+ position: relative;
+ overflow-x: scroll;
+ margin-left: 30px;
+ object-fit: cover;
+ object-position: center;
+}
+ .imgs{
+    position: relative;
+ }
+.img5{
+   display:flex;
+   flex-direction: row;
+   position: relative;
+   width: 400px;
+   height: 400px;
+   margin-right: 15px;
+}
+.para{
+    position:absolute;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 80px;
+  left: 30px;
+  z-index: 1000;
+}
+.now-btn{
+    z-index: 200;
+    position: absolute;
+    color:black;
+    background-color: white;
+    bottom: 50px;
+    left: 30px;
+    border: none;
+    padding: 2% 2%;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.now-btn:hover{
+    background-color: rgb(188, 185, 185);
+}
+.trd{
+ width: 95%;
+ height: 100%;
+ margin-left: 40px;
+}
+.name1{
+    margin-left: 450px;
+}
+.word{
+    position: absolute;
+    font-size: 16px;
+   margin-top: 70px;
+}
+.word2{
+    position: absolute;
+    font-size: 16px;
+   margin-top: 120px;
+}
+.btn2{
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 1% 2%;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.15s;
+}
+.btn2:hover{
+    background-color: gray;
+}
+.showes{
+    position: relative;
+    background-color: rgb(223, 109, 172);
+}
+.sh{
+    display:flex;
+   flex-direction: row;
+   width: 300px;
+   height: 300px;
+  margin-right: 15px;
+  border: 1px solid red;
+}
+.sh-name{
+    position:absolute;
+    color: rgb(6, 3, 3);
+    z-index: 80;
+    bottom: -20px;
+    left: 60px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.word3{
+    margin-top: -50px;
+    width: 800px;
+    line-height: 25px;
+}
+.wrd{
+    position: relative;
+    margin-top: -10px;
+}
+.sec8 button{
+    font-size: 20px;
+    padding: 2% 4%;
+}

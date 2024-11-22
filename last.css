@@ -1,0 +1,31 @@
+.last-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-left: 3%;
+    margin-right: 5%;
+    /* border: 1px solid red; */
+    margin-top: 3%;
+}
+.p-last{
+    margin-left: 40%;
+    font-size: 24px;
+}
+.first{
+    margin-left: 15%;
+    margin-bottom: 15px; 
+  font-size: 15px; 
+  line-height: 2.5; 
+  font-weight: bold;
+  white-space: nowrap;
+  color: rgb(131,128,128);
+  transition: color 0.15s;
+}
+.first li:hover{
+    color: black;
+   
+}
+.final{
+    color: gray;
+    text-align: center;
+}
